@@ -93,3 +93,23 @@ class UnoderList:
             pass
            
  ```
+
+
+``` python 
+
+# Testing/Pengecekan
+MyUnorderList = UnoderList()
+print(MyUnorderList.isEmpty())
+MyUnorderList.add(10)
+MyUnorderList.add(100)
+MyUnorderList.add(1) # 1, 100, 10
+MyUnorderList.cetak()
+MyUnorderList.remove(100)
+MyUnorderList.cetak() # 1, 10
+
+print(MyUnorderList.size())
+print(MyUnorderList.search(1))
+MyUnorderList.cetak()
+
+
+```
