@@ -1,4 +1,4 @@
-python//
+``` python
 class Node:
       def __init__(self,data:None):
             self.data = data
@@ -28,3 +28,4 @@ c = n1
 while c :
     print(c.data)
     c = c.next
+```
