@@ -31,3 +31,65 @@ while c :
     print(c.data)
     c = c.next
 ```
+
+
+
+``` python
+ # UnoderList
+class UnoderList:
+      def __init__(self):
+            self.head = None
+
+      def isEmpty(self):
+            return self.head == None
+
+      def add(self,item):
+            temp = Node(item)
+            temp.setNext(self.head)
+            self.head = temp
+
+      def size(self):
+            current = self.head
+            count = 0
+            while current != None:
+                  count = count + 1
+                  current = current.getNext()
+            return count
+
+      # searches for the item in the list. It needs the item and returns a boolean value.
+      def search(self,item):
+            pass
+      
+      # Menghapus nilai dari suatu Unorderlist
+      def remove(self,item):
+            pass
+      
+      # adds a new item to the end of the list making it the last item in the col- lection. 
+      # It needs the item and returns nothing. Assume the item is not already in the list.
+      def append(self, item):
+            pass
+      
+      # returns the position of item in the list. It needs the item and returns the index. Assume the item is in the list
+      def index(self, item):
+            pass
+      
+      # adds a new item to the list at position pos. It needs the item and returns nothing. 
+      # Assume the item is not already in the list and there are enough existing items to have position pos.
+      def insert(self, pos, item):
+            pass
+      
+      # removes and returns the last item in the list. 
+      # It needs nothing and returns an item. Assume the list has at least one item
+      def pop(self):
+            pass 
+      
+      # removes and returns the item at position pos. 
+      # It needs the position and returns the item. Assume the item is in the list
+      def pop(self, pos):
+            pass
+      
+      # mencetak nilai di dalam unorderlist 
+      def cetak(self):
+            pass
+           
+ ```
